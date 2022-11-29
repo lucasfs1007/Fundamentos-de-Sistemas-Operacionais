@@ -4,7 +4,7 @@
 #include <dlfcn.h> //biblioteca que vamos consumir
 
 int main(int argc, char const *argv[]) {
-    
+  
     int (*imprime) (void);
     int (*calcula) (int,int);
     int (*trigo) (double);
